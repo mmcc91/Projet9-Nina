@@ -30,15 +30,16 @@
     <meta name="twitter:description" content="Portfolio de Nina Carducci, photographe." />
     <meta name="twitter:image:src" content="https://www.maudcurti.com/projet9/assets/images/nina.avif" />
 
-    <link rel="preload" as="image" href="./assets/images/slider/ryoji-iwata.jpeg" />
-    <link rel="preload" as="image" imagesizes="50vw" />
-
-    <link rel="preload" href="./assets/style.css" as="style" />
-    <link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style" />
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="./assets/style-min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style" />
+    <link rel="preload" href="./assets/style-min.css" as="style" />
+    <link rel="preload" as="image" href="./assets/images/slider/ryoji-iwata.avif" />
+    <link rel="preload " as="script" href="./assets/scripts-min.js" />
+
+    <link rel="stylesheet" as="script" href="./assets/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/style-min.css" />
   </head>
   <body>
     <header class="top-header">
@@ -68,7 +69,7 @@
               <img
                 srcset="./assets/images/slider/edward-cisneros-250.avif 250w, ./assets/images/slider/edward-cisneros-1921.avif 1920w"
                 sizes="100vw"
-                src="./assets/images/slider/250px/edward-cisneros.avif"
+                src="./assets/images/slider/edward-cisneros.avif"
                 class="d-block w-100"
                 alt="Photo de mariage d'un couple qui danse durant leur mariage"
                 width="1921"
@@ -81,7 +82,7 @@
               <img
                 srcset="./assets/images/slider/250px/nicholas-green-250px.avif 250w, ./assets/images/slider/1920px/nicholas-green-1920px.avif 1920w"
                 sizes="100vw"
-                src="./assets/images/slider/900px/nicholas-green.avif"
+                src="./assets/images/slider/nicholas-green.avif"
                 class="d-block w-100"
                 alt="Photo d'un public en concert evenment"
                 width="1921"
@@ -93,7 +94,7 @@
               <img
                 srcset="./assets/images/slider/250px/ryoji-iwata-250px.avif 250w, ./assets/images/slider/1920px/ryoji-iwata-1920px.avif 1920w"
                 sizes="100vw"
-                src="./assets/images/slider/900px/ryoji-iwata.avif"
+                src="./assets/images/slider/ryoji-iwata.avif"
                 class="d-block w-100"
                 alt="Photo d'un homme en costume traversant la route sur un passage piéton"
                 width="1921"
@@ -131,19 +132,19 @@
           <div class="gallery">
             <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul.avif" alt="Concert aaron-paul" />
 
-            <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou.avif"  alt="Entrepreneur ali-morshedlou" />
+            <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou.avif" alt="Entrepreneur ali-morshedlou" />
 
-            <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman.avif"  alt="Entrepreneurs jason-goodman" />
+            <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman.avif" alt="Entrepreneurs jason-goodman" />
 
-            <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing.avif"  alt="Mariage hannah-busing" />
+            <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing.avif" alt="Mariage hannah-busing" />
 
-            <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade.tunj.avif"  alt="Portrait ade-tunji" />
+            <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade.tunj.avif" alt="Portrait ade-tunji" />
 
-            <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.avif"  alt="Mariés Palmier jakob-owens" />
+            <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.avif" alt="Mariés Palmier jakob-owens" />
 
-            <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg.avif"  alt="Femme Lunettes nino-van" />
+            <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg.avif" alt="Femme Lunettes nino-van" />
 
-            <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill.avif"  alt="Concert austin-neill" />
+            <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill.avif" alt="Concert austin-neill" />
 
             <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos.avif" alt="femme sur Ordinateur mateus-campos" />
           </div>
@@ -234,10 +235,9 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-    <script src="./assets/maugallery.js"></script>
-    <script src="./assets/scripts.js"></script>
-    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-
+    <script src="./assets/maugallery-min.js"></script>
+    <script src="./assets/scripts-min.js"></script>
+    <script src="./assets/bootstrap/bootstrap.bundle-min.js"></script>
 
     <script type="application/ld+json">
       {
