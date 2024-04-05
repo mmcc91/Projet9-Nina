@@ -112,7 +112,8 @@ body {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	font-weight: 800;
+	background-color: #807732;
 	border-radius: 0;
 }
 
