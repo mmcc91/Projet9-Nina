@@ -34,11 +34,11 @@
     <link rel="preload" as="image" href="./assets/images/slider/nicholas-green.avif" />
     <link rel="preload" as="image" href="./assets/images/slider/edward-cisneros.avif" />
 
-
-  <link rel="preload" as="script" href="./assets/bootstrap/bootstrap.bundle.min.js" />
-    <link rel="stylesheet"  href="./assets/bootstrap/bootstrap.min.css" />
+    <link rel="preload" as="script" href="./assets/bootstrap/bootstrap.bundle.min.js" />
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/style-min.css" />
   </head>
+
   <body>
     <header class="top-header">
       <h1 class="name">Nina Carducci</h1>
@@ -54,8 +54,9 @@
         </ul>
       </div>
     </header>
+
     <main>
-      <section id="header">
+      <section id="principal">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -65,16 +66,16 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <h2>
-              <img
-                srcset="./assets/images/slider/edward-cisneros-250.avif 250w, ./assets/images/slider/edward-cisneros-1921.avif 1920w"
-                sizes="100vw"
-                src="./assets/images/slider/edward-cisneros.avif"
-                class="d-block w-100"
-                alt="Photo de mariage d'un couple qui danse durant leur mariage"
-                width="1921"
-                height="888"
-                style="max-width: 100%; height: auto"
-              />
+                <img
+                  srcset="./assets/images/slider/edward-cisneros-250.avif 250w, ./assets/images/slider/edward-cisneros-1921.avif 1920w"
+                  sizes="100vw"
+                  src="./assets/images/slider/edward-cisneros.avif"
+                  class="d-block w-100"
+                  alt="Photo de mariage d'un couple qui danse durant leur mariage"
+                  width="1921"
+                  height="888"
+                  style="max-width: 100%; height: auto"
+                />
               </h2>
             </div>
 
@@ -113,6 +114,7 @@
           </button>
         </div>
       </section>
+
       <section id="about">
         <div class="picture left">
           <img src="./assets/images/nina.avif" class="lazyload" width="138" height="400" alt="Photo de Nina Carducci la photographe" />
@@ -126,6 +128,7 @@
           </p>
         </div>
       </section>
+      
       <section id="gallery">
         <h2 class="title">Portfolio</h2>
         <div class="container py-3">
@@ -160,6 +163,7 @@
           </figure>
         </div>
       </section>
+
       <section id="services">
         <h2 class="title">Mes services</h2>
         <div class="container">
@@ -195,6 +199,7 @@
           </div>
         </div>
       </section>
+
       <section class="quote">
         <figure>
           <blockquote>
@@ -203,12 +208,13 @@
           <figcaption class="quote__author">- Richard Avedon</figcaption>
         </figure>
       </section>
+
       <section id="contact">
         <div class="container">
           <div class="form-container">
             <h2>Une question ? Une demande de devis ?</h2>
             <p>N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-            <form >
+            <form>
               <label for="nom">Nom</label>
               <input type="text" name="nom" id="nom" required placeholder="Entrez votre nom" />
               <label for="email">Email</label>
@@ -224,6 +230,7 @@
         </div>
       </section>
     </main>
+
     <footer>
       <address>
         <span>68 avenue Alsace-Lorraine</span>, <span>Bordeaux</span>,
